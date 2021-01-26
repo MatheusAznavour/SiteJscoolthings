@@ -1,0 +1,150 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(243, 240, 230);
+    background-image: url(p12345549184812864581667/Phillips-Neon-Genesis-Evangelion.jpg);
+    background-position-x: center;
+}
+
+header{
+    background: rgba(15, 15, 15, 0.322);
+
+}
+
+#UserImput{
+    border-width: 2pt;
+    border-color: black;
+}
+
+#Password1{
+    border-width: 2pt;
+    border-color: black;
+}
+
+#loginButton{
+    border-radius: 10%;
+    border-width: 3pt;
+    border-color: black;
+}
+#loginButton:hover{
+    background-color: yellowgreen;
+    text-transform: uppercase
+    ;
+}
+
+main{
+    height: 710px;
+    
+   background: rgba(0, 0, 0, 0.637);
+}
+
+footer{
+    height: 450px;
+    padding-top: 10pt;
+    background: rgba(57, 97, 69, 0.895);
+}
+
+div#Login{
+
+    height: 10px;
+    display: inline; 
+}
+
+h4{
+    color: white;
+    display: inline-block;
+    
+}
+h1{
+    color: white;
+    font-family: Courier New;
+}
+h3{
+    color: white;
+    font-family: Courier New;
+}
+
+img#img01{
+    margin-left: 20pt;
+    border-radius: 10%;
+    box-shadow: pink 10pt 10pt;
+}
+img#img02{
+    margin-left: 20pt;
+    border-radius: 10%;
+    box-shadow: rgb(82, 80, 80) 10pt 10pt;
+}
+
+#Recomendados{
+    color: white;
+    position: absolute;
+    left: 1031px;
+    top: 98px;
+}
+
+
+p#paragrafoEsp{
+    font-family: arial;
+    font-size: large;
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+.menuArea ul{
+    list-style: none;
+
+}
+
+
+.menuArea{
+    
+    display: inline-block;
+    text-align: center;
+    
+}
+.menuArea li:hover{
+    background: #029bd5;
+    height: 25pt;
+}
+.menuArea > ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background: #313131;
+    color: fff;
+}
+.menuArea > ul > li{
+    position: relative;
+    cursor: pointer;
+    font-family: poppins;
+    font-size: 14px;
+    letter-spacing: 136px;
+    height: 50px;
+    line-height: 50px;
+}
+.dropdown{
+    
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+.dropdown li{
+    background: #2b2c29;
+    display: none;
+}
+.dropdown li:hover{
+    background: #029bd5;
+}
+.menuArea li:hover > .dropdown li{
+    display: block;
+}
+
+#ofMe{
+    text-align: center;
+}

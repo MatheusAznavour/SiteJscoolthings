@@ -1,0 +1,25 @@
+//Verificar velocidade 
+//Velocidade maxima de ate 70km > "ok"
+//a cada 5km acima do limite voce ganha 1 ponto na carteira
+
+verificarVelocidade(150)
+
+function verificarVelocidade(ent){
+    
+
+    if(ent <= 70){  //Checa se a velocidade esta ingual ou menor q 70
+        console.log("Voce ta na velocidade certa")
+    }       
+
+    else    //caso contrario cada 5Km amais ela conta 1 ponto
+     {  
+        var pontos = ((ent - 70) / 5); // Pontos vai guardar o "vai cortar 70 pontos q são o minimo e dividir os amais e contar todos q forem enteiro como 1"
+        if(pontos > 12){    
+            console.log("carteira suspensa",pontos)
+        }   else{
+            console.log("Pontos", pontos)
+        }
+         
+     }
+
+}
